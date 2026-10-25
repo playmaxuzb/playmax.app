@@ -1,4 +1,4 @@
-const CACHE = 'playmax-app-v12';
+const CACHE = 'playmax-app-v13';
 const APP_SHELL = ['./', './index.html', './core.js', './viewer3d.js', './manifest.webmanifest'];
 
 self.addEventListener('install', (event) => {
