@@ -2,7 +2,7 @@
   "id": "./",
   "name": "PLAYMAX — Play your way",
   "short_name": "PLAYMAX",
-  "description": "PLAYMAX arcade, boxing and family entertainment machines",
+  "description": "PLAYMAX arcade, boxing and family entertainment machines: browse, pick a color, check your profit and order on WhatsApp or Telegram.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -11,7 +11,7 @@
   "theme_color": "#1F5BD8",
   "categories": [
     "shopping",
-    "games"
+    "business"
   ],
   "icons": [
     {
@@ -37,6 +37,61 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+  "lang": "en",
+  "dir": "auto",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "prefer_related_applications": false,
+  "launch_handler": {
+    "client_mode": "auto"
+  },
+  "handle_links": "preferred",
+  "screenshots": [
+    {
+      "src": "assets/shots/1-home.webp",
+      "sizes": "660x1434",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Home"
+    },
+    {
+      "src": "assets/shots/3-product.webp",
+      "sizes": "660x1434",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Pick a body color"
+    },
+    {
+      "src": "assets/shots/2-store.webp",
+      "sizes": "660x1434",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "All machines"
+    },
+    {
+      "src": "assets/shots/4-calc.webp",
+      "sizes": "660x1434",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Profit calculator"
+    },
+    {
+      "src": "assets/shots/5-market.webp",
+      "sizes": "660x1434",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Marketplace"
+    },
+    {
+      "src": "assets/shots/6-contact.webp",
+      "sizes": "660x1434",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Order and contact"
     }
   ]
 }
